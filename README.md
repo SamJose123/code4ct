@@ -8,6 +8,10 @@ Rebuilding the website of Code4CT  and NGO.
 - Made the website live
 - Created a folder structure using commandline
 - Created index.html file and created a boiler plate
+- Logo img and banner img added
+- Navbar content added
+- Search bar added to page
+- Two buttons (Start coding and donate) included on banner image
 
 ## Tech used:
 
