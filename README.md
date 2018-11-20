@@ -18,6 +18,9 @@ Rebuilding the website of Code4CT  and NGO.
 - Corrected the font size of the heading to be centered
 - Placed navbar in center of page
 - Adjusted size of logo image
+- Styled buttons to have border-radius of 5px
+- Added hover effect to navbar
+- Added the "Who Are We" section
 
 ## Tech used:
 
