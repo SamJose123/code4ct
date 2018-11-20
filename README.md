@@ -13,6 +13,12 @@ Rebuilding the website of Code4CT  and NGO.
 - Search bar added to page
 - Two buttons (Start coding and donate) included on banner image
 
+## 20 Novemeber 2018
+
+- Corrected the font size of the heading to be centered
+- Placed navbar in center of page
+- Adjusted size of logo image
+
 ## Tech used:
 
 - HTML
