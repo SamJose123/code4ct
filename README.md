@@ -21,6 +21,9 @@ Rebuilding the website of Code4CT  and NGO.
 - Styled buttons to have border-radius of 5px
 - Added hover effect to navbar
 - Added the "Who Are We" section
+- Added the Exciting courses section
+- Included a table with black background with all that the NGO offers
+
 
 ## Tech used:
 
