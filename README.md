@@ -24,6 +24,11 @@ Rebuilding the website of Code4CT  and NGO.
 - Added the Exciting courses section
 - Included a table with black background with all that the NGO offers
 
+##  21 Novemeber 2018
+
+- Added counters
+- With black background
+- Added definitions to explain the team and the exciting courses
 
 ## Tech used:
 
