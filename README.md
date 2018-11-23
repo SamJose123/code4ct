@@ -30,6 +30,12 @@ Rebuilding the website of Code4CT  and NGO.
 - With black background
 - Added definitions to explain the team and the exciting courses
 
+## 23 Novemeber 2018 
+
+- HTML links to other pages
+- Footer details
+
+
 ## Tech used:
 
 - HTML
