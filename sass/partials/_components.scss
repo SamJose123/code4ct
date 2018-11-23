@@ -1,0 +1,64 @@
+// buttons styling
+
+// @import 'partials/variables'
+
+// 
+.btn {
+    width: 200px;
+    font-size: 16px;
+    height: 32px;
+    float: left;
+    margin-top: 27px;
+    margin-left: 150px;
+}
+
+.btn {
+    color: $pink;
+    height: 32px;
+    margin-top: 27px;
+    // margin-left: 80px;
+}
+
+// start coding btn
+.startCoding  {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    background-color: $pink;
+    border: none;
+    border-radius: 5px;
+    margin-left: 615px;
+    margin-top: 68px;
+    color: white;
+    text-decoration: none;
+}
+// donate btn
+.donate {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #363636;
+    border: none;
+    border-radius: 5px;
+    margin-left: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+
+// input block
+#email {
+    width: 200px;
+    font-size: 16px;
+    height: 32px;
+    // float: left;
+    margin-top: 27px;
+    margin-left: 150px;
+}
+// submit btn
+#submitBtn {
+    color: $pink;
+    height: 32px;
+    margin-top: 27px;
+    // margin-left: 80px;
+}
