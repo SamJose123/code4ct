@@ -112,7 +112,7 @@ body {
 h3 {
   border-bottom: 2px solid #e38f84;
   padding-bottom: 10px;
-  width: 10%;
+  width: 40%;
   margin-bottom: 4%;
   text-align: center; }
 
@@ -142,7 +142,8 @@ td {
   padding: 25px;
   font-size: 14px; }
   .courses p {
-    padding: 10px; }
+    padding: 103px;
+    margin-top: -94px; }
 
 .team {
   display: grid;
@@ -150,7 +151,8 @@ td {
   padding: 25px;
   font-size: 14px; }
   .team p {
-    padding: 10px; }
+    padding: 103px;
+    margin-top: -94px; }
 
 .counters {
   background-color: #e38f84;
