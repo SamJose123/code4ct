@@ -7,115 +7,13 @@
         'partials/responsiveness';
 
 
-
-
-
-
-// ////////////////////////////////////////////////////navbar menu//////////////////////////////////////
-#menu {
-    margin: 30px;
-    padding: 10px;
-    margin-inline-start: 300px;
-    margin-inline-end: 40px;
-    margin-top: 15px;
-}
-
-#menu a:hover{
-    color: $pink;
-}
-
-.navLinks {
-    float: left;
-    margin: 36px 0px 0px 40px;
-    padding-left: 25px;
-    text-decoration: none;
-    color: $navColor;
-    // font-family: $font-family;
-}
-
-
-
-// ///////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-// ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-.about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 25px;
-    font-size: 14px;
-
-    p {
-        // border: solid 1px black;
-        padding: 10px;
-    }
-}
-
-
  h3 {
     border-bottom: 2px solid $pink;
     padding-bottom: 10px;
-    width: 40%;
+    width: 85%;
     margin-bottom: 4%;
     text-align: center;
  }
-
-.btn a {
-    width: 100px;
-    height: 40px;
-    font-size: 14px;
-    background-color: #363636;
-    border: none;
-    border-radius: 5px;
-    // margin-left: 280px;
-    color: white;
-    text-decoration: none;
-}
-
-.services {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 30px;
-    background-color: $pink;    
-}
-
-td {
-    text-align: center;
-}
-
-.courses {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 25px;
-    font-size: 14px;
-
-    p {
-        // border: solid 1px black;
-        padding: 103px;
-        margin-top: -94px;
-    }    
-    
-}
-
-
-
-.team {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 25px;
-    font-size: 14px;
-
-    p {
-        // border: solid 1px black;
-        padding: 103px;
-        margin-top: -94px;
-    }
-}
 
 .counters {
     background-color: $pink;
@@ -125,41 +23,9 @@ td {
     height: 270px;
 }
 
-.subscribe {
-    background-color: white;
-    width: 100%;
-    margin-top: 4%;
-    margin-bottom: 2%;
-    clear: both;
-    height: 200px;
-    text-align: center;
 
-    h3 {
-        text-align: center;
-        // margin-left: 50%;
-        width: 100%;
-    }
 
-    #email {
-        width: 200px;
-        font-size: 16px;
-        height: 32px;
-        // float: left;
-        margin-top: 27px;
-        margin-left: 150px;
-    }
-    
-    
-}
 
-footer {
-    background-color: #363636;
-    
-
-    h4 {
-        color: $blue;
-    }
-}
 
 
 

@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-light;
   margin: 0;
   padding: 0; }
 
@@ -25,16 +25,22 @@ body {
     display: block;
     margin-top: -90px;
     margin-left: 425px;
+    font-family: "Poppins", sans-light;
     color: white;
     text-align: center;
     width: 555px;
     height: 20.5px;
     font-size: 12.3px;
     font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.79;
-    letter-spacing: normal; }
+    font-size: 12px; }
+
+h3 {
+  border-bottom: 2px solid #e38f84;
+  padding-bottom: 10px;
+  width: 85%;
+  margin-bottom: 4%;
+  text-align: center; }
 
 .about-banner {
   margin-top: 58px;
@@ -45,6 +51,85 @@ body {
   height: 284px;
   background-color: #555555;
   background-blend-mode: multiply; }
+
+.subscribe {
+  background-color: white;
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  clear: both;
+  height: 200px;
+  text-align: center; }
+  .subscribe h3 {
+    text-align: center;
+    width: 100%; }
+  .subscribe #email {
+    width: 200px;
+    font-size: 16px;
+    height: 32px;
+    margin-top: 27px;
+    margin-left: 150px; }
+
+footer {
+  background-color: #363636; }
+  footer h4 {
+    color: #48d6e6; }
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  font-size: 14px; }
+  .about p {
+    padding: 10px; }
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 30px;
+  background-color: #e38f84; }
+
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  font-size: 14px; }
+  .courses p {
+    padding: 103px;
+    margin-top: -94px; }
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  font-size: 14px; }
+  .team p {
+    padding: 103px;
+    margin-top: -94px; }
+
+td {
+  text-align: center; }
+
+#menu {
+  margin: 30px;
+  padding: 0;
+  margin-inline-start: 300px;
+  margin-inline-end: 40px;
+  margin-top: 0;
+  font-family: "Poppins", sans-light;
+  font-size: 12px;
+  letter-spacing: 2px; }
+
+#menu a:hover {
+  color: #e38f84; }
+
+.navLinks {
+  float: left;
+  margin: 36px 0px 0px 40px;
+  padding-left: 25px;
+  text-decoration: none;
+  color: #918d8d; }
 
 .btn {
   width: 200px;
@@ -98,38 +183,6 @@ body {
 form {
   text-align: center; }
 
-#menu {
-  margin: 30px;
-  padding: 10px;
-  margin-inline-start: 300px;
-  margin-inline-end: 40px;
-  margin-top: 15px; }
-
-#menu a:hover {
-  color: #e38f84; }
-
-.navLinks {
-  float: left;
-  margin: 36px 0px 0px 40px;
-  padding-left: 25px;
-  text-decoration: none;
-  color: #918d8d; }
-
-.about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 25px;
-  font-size: 14px; }
-  .about p {
-    padding: 10px; }
-
-h3 {
-  border-bottom: 2px solid #e38f84;
-  padding-bottom: 10px;
-  width: 40%;
-  margin-bottom: 4%;
-  text-align: center; }
-
 .btn a {
   width: 100px;
   height: 40px;
@@ -140,33 +193,12 @@ h3 {
   color: white;
   text-decoration: none; }
 
-.services {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  padding: 30px;
-  background-color: #e38f84; }
-
-td {
+h3 {
+  border-bottom: 2px solid #e38f84;
+  padding-bottom: 10px;
+  width: 85%;
+  margin-bottom: 4%;
   text-align: center; }
-
-.courses {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 25px;
-  font-size: 14px; }
-  .courses p {
-    padding: 103px;
-    margin-top: -94px; }
-
-.team {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 25px;
-  font-size: 14px; }
-  .team p {
-    padding: 103px;
-    margin-top: -94px; }
 
 .counters {
   background-color: #e38f84;
@@ -174,28 +206,5 @@ td {
   margin-bottom: 2%;
   clear: both;
   height: 270px; }
-
-.subscribe {
-  background-color: white;
-  width: 100%;
-  margin-top: 4%;
-  margin-bottom: 2%;
-  clear: both;
-  height: 200px;
-  text-align: center; }
-  .subscribe h3 {
-    text-align: center;
-    width: 100%; }
-  .subscribe #email {
-    width: 200px;
-    font-size: 16px;
-    height: 32px;
-    margin-top: 27px;
-    margin-left: 150px; }
-
-footer {
-  background-color: #363636; }
-  footer h4 {
-    color: #48d6e6; }
 
 /*# sourceMappingURL=main.css.map */

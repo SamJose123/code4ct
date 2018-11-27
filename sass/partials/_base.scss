@@ -4,18 +4,14 @@ html {
 }
 
 body {
-    font-family: $font-family;
+    font-family: $font-family3;
     margin: 0;
     padding: 0;
 }
 
 // ////////////////////////////main body/ header part of styling/////////////////////////////////////
 // Page banner header
-
-
 // short description of page
-
-
 .mainBody {
     margin-top: 58px;
     background-image: url(../img/bannerImg.jpg);
@@ -41,19 +37,26 @@ body {
         margin-top: -90px;
         margin-left: 425px;
         // padding: 30px;
-        // font-family: $font-family;
+        font-family: $font-family3;
         color: $white;
         text-align: center;
         width: 555px;
         height: 20.5px;
         font-size: 12.3px;
         font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
         line-height: 1.79;
-        letter-spacing: normal; 
+        font-size: 12px;
+         
     }
 }
+
+h3 {
+    border-bottom: 2px solid $pink;
+    padding-bottom: 10px;
+    width: 85%;
+    margin-bottom: 4%;
+    text-align: center;
+ }
 
 .about-banner {
     margin-top: 58px;
@@ -66,3 +69,37 @@ body {
     background-blend-mode: multiply; 
 }
 
+.subscribe {
+    background-color: white;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    clear: both;
+    height: 200px;
+    text-align: center;
+
+    h3 {
+        text-align: center;
+        // margin-left: 50%;
+        width: 100%;
+    }
+
+    #email {
+        width: 200px;
+        font-size: 16px;
+        height: 32px;
+        // float: left;
+        margin-top: 27px;
+        margin-left: 150px;
+    }
+    
+    
+}
+
+footer {
+    background-color: #363636;
+    
+    h4 {
+        color: $blue;
+    }
+}
