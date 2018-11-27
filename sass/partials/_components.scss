@@ -9,11 +9,19 @@
     font-family: $font-family3;
     font-size: 12px;
     letter-spacing: 2px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
 
+    a:hover{
+        color: $pink;
+    }
 }
 
-#menu a:hover{
-    color: $pink;
+nav {
+    position: sticky;
+    z-index: 0;
+    top: 0;
 }
 
 .navLinks {
@@ -22,7 +30,22 @@
     padding-left: 25px;
     text-decoration: none;
     color: $navColor;
-    // font-family: $font-family3;
+    // font-family: $font-family3;   
+}
+
+// style for search field
+#search {
+    margin-left: 70px;
+    font-size: 10px;
+    float: left;
+    width: 180px;
+    height: 25px;
+    margin-top: 29px;
+}
+
+#searchBtn {
+    height: 25px;
+    margin-top: 29px;
 }
 
 
